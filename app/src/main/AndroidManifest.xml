@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CardiacRecorder">
         <activity
+            android:name=".Recorder"
+            android:exported="false" />
+        <activity
+            android:name=".reigistration"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".List_of_MEasure"
             android:exported="false" />
         <activity
