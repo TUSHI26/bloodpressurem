@@ -28,9 +28,9 @@ public class New_measurement extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_measurement);
         nameField = findViewById(R.id.field_nameEntry);
-         newsys  = findViewById(R.id.editText_name);
-         newdias = findViewById(R.id.editText1_name);
-sys =findViewById(R.id.systolic);
+        newsys  = findViewById(R.id.editText_name);
+        newdias = findViewById(R.id.editText1_name);
+        sys =findViewById(R.id.systolic);
         dias =findViewById(R.id.diastolic);
         cityList = findViewById(R.id.city_list);
         dataList = new ArrayList<>();
@@ -64,10 +64,6 @@ sys =findViewById(R.id.systolic);
 
 
 
-        }
+    }
 
 }
-
-
-
-
