@@ -73,15 +73,13 @@
         android:transitionName="button_tran" />
 
     <Button
-        android:id="@+id/reg_login_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:text="Already have an account? LogIn" />
-    <Button
         android:id="@+id/signup"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        android:text="Already have an account? LogIn" />
+        android:layout_height="68dp"
+        android:background="#000"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:transitionName="button_tran" />
+
+
 </LinearLayout>

@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
     TextInputLayout usernam,passwrd;
-    Button signin;
+    Button signin,signup;
     DatabaseReference reference= FirebaseDatabase.getInstance().getReferenceFromUrl( "https://cardiac-recorder-38f44-default-rtdb.firebaseio.com/");
 
 
@@ -30,7 +30,13 @@ public class MainActivity extends AppCompatActivity {
         usernam =findViewById(R.id.username);
         passwrd=findViewById(R.id.password);
         signin =findViewById(R.id.Signin);
-        Button button = findViewById(R.id.signup);
+        signup = findViewById(R.id.signup);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,reigistration.class));
+            }
+        });
 
         signin.setOnClickListener(new View.OnClickListener() {
             @Override
