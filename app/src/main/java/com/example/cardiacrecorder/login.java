@@ -42,8 +42,15 @@ public class login extends AppCompatActivity {
                         //if username exist in database
                     String getpasword =snapshot.child(username).child("password").getValue(String.class);
                    if (getpasword.equals(password)){
-                Toast.makeText(login.this,"Successfully loggged in", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(login.this,New_measurement.class));
+
+//                       Button button = findViewById(R.id.Signin);
+//                       button.setOnClickListener(new View.OnClickListener() {
+//                           @Override
+//                           public void onClick(View v) {
+//                               Intent intent = new Intent(login.this,newmeasurement.class);
+//                           }
+//                       });
+                startActivity(new Intent(login.this,newmeasurement.class));
                 finish();
                         }
                     else{

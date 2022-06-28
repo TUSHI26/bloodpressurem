@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
                             //if username exist in database
                             String getpasword =snapshot.child(username).child("password").getValue(String.class);
                             if (getpasword.equals(password)){
-                                Toast.makeText(MainActivity.this,"Successfully loggged in", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(MainActivity.this,New_measurement.class));
+//                                Toast.makeText(MainActivity.this,"Successfully loggged in", Toast.LENGTH_SHORT).show();
+
+                                startActivity(new Intent(MainActivity.this,login.class));
                                 finish();
                             }
                             else{
