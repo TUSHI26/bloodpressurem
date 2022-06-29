@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.197" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_create.xml" value="0.25" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_create_new_record.xml" value="0.25" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_list_of_measure.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_new_measurement.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_newmeasurement.xml" value="0.264" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_recorder.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_reigistration.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/activity_show.xml" value="0.22826086956521738" />
+        <entry key="..\:/GIt_Project/bloodpressurem/app/src/main/res/layout/content.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardiacRecorder/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardiacRecorder/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
         <entry key="..\:/Users/User/AndroidStudioProjects/CardiacRecorder/app/src/main/res/layout/activity_list_of_measure.xml" value="0.21784420289855072" />
